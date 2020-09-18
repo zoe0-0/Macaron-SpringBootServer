@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="me.duohui.macaronServer.mapper.MemberMapper">
+ 
+
+    <!--게시글 보기-->
+    <select id="selectMember" parameterType="me.duohui.macaronServer.model.Login" resultType="int">
+        select member_number from Members where type=#{type} and id=#{id} and password=#{password}
+    </select>
+
+
+</mapper>

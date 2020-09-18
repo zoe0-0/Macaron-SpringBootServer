@@ -1,0 +1,9 @@
+package me.duohui.macaronServer.service;
+
+import me.duohui.macaronServer.model.Login;
+
+public interface MemberService {
+
+	int checkLogin(Login login) throws Exception;
+	
+}

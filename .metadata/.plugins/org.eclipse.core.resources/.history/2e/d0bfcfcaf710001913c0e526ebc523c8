@@ -1,0 +1,16 @@
+package me.duohui.macaronServer;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan(value={"me.duohui.macaronServer.dao.MemberDao"})
+public class MacaronServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MacaronServerApplication.class, args);
+	}
+
+}
+

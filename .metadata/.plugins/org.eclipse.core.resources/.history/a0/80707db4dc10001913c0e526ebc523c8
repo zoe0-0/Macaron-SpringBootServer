@@ -1,0 +1,8 @@
+package me.duohui.macaronServer.dao;
+
+@Repository
+public interface MemberDao {
+	
+	
+	
+}

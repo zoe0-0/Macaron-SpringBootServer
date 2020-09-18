@@ -1,0 +1,27 @@
+package me.duohui.macaronServer.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import me.duohui.macaronServer.model.Login;
+import me.duohui.macaronServer.service.MemberService;
+
+@Controller
+public class MemberController {
+
+	   @Autowired
+	   MemberService service;
+
+		@RequestMapping(value="/login", method=RequestMethod.GET)
+		public void loginSubmit(Login login) throws Exception {
+		    int num = service.checkLogin(login);
+		    System.out.println(num);
+		}
+		
+	
+		
+
+}

@@ -1,0 +1,5 @@
+package me.duohui.macaronServer.service;
+
+public class MemberServiceImple implements MemberService{
+
+}

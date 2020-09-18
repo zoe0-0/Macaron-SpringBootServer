@@ -1,0 +1,11 @@
+package me.duohui.macaronServer.dao;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MemberDao {
+	
+    public int selectMember(Login login) throws Exception;
+
+	
+}

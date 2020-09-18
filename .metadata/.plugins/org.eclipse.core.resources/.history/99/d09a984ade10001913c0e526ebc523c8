@@ -1,0 +1,12 @@
+package me.duohui.macaronServer.model;
+
+import lombok.Data;
+
+@Data
+public class Login {
+
+	private int type;	
+	private String id;
+	private String password;
+	
+}

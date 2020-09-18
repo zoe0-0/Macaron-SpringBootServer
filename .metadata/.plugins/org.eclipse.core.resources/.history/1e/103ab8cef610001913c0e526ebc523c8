@@ -1,0 +1,14 @@
+package me.duohui.macaronServer;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MacaronServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MacaronServerApplication.class, args);
+	}
+
+}
+

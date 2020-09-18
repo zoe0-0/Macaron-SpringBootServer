@@ -1,0 +1,5 @@
+package me.duohui.macaronServer.dao;
+
+public class MemberDao {
+
+}

@@ -1,0 +1,21 @@
+package me.duohui.macaronServer.model;
+
+import javax.validation.constraints.NotNull;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+public class Login {
+    @NotNull
+	private int type;
+    
+    @NotNull
+	private String id;
+    
+    @NotNull
+	private String password;
+
+	
+}

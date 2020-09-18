@@ -1,0 +1,18 @@
+package me.duohui.macaronServer.service;
+
+import me.duohui.macaronServer.model.Login;
+
+public class MemberServiceImple implements MemberService{
+
+	@Override
+	public int checkLogin(Login login) throws Exception {  //로그인 정보 맞을 경우 회원번호 return
+		
+	 //로그인 객체로 데이터베이스에서 로그인 정보 확인
+		
+	 //맞을 경우 회원번호 return
+		return 0;
+	}
+
+	
+	
+}

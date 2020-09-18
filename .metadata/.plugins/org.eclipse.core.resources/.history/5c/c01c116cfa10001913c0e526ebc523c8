@@ -1,0 +1,12 @@
+package me.duohui.macaronServer.mapper;
+
+import org.springframework.stereotype.Repository;
+
+import me.duohui.macaronServer.model.Login;
+
+@Repository()
+public interface MemberMapper {
+	
+    public int selectMember(Login login) throws Exception;
+	
+}

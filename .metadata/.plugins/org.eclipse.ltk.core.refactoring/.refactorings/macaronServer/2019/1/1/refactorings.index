@@ -1,0 +1,17 @@
+1546662776730	Copy package
+1546662783710	Delete element
+1546662912310	Copy package
+1546662916985	Delete element
+1546662920153	Delete element
+1546663023548	Delete element
+1546664188398	Rename resource 'Controller'
+1546664375247	Rename type 'Customer'
+1546664820478	Rename type 'Member'
+1546685312407	Delete element
+1546686488184	Delete element
+1546686641917	Delete element
+1546686682017	Rename type 'MemberDao'
+1546687511500	Rename type 'BaseDao'
+1546700083219	Rename resource 'dao'
+1546700095327	Rename resource 'MemberDao.java'
+1546700655156	Rename resource 'member-mapper.xml'

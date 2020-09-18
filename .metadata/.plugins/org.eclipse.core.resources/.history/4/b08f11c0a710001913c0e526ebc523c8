@@ -1,0 +1,10 @@
+package me.duohui.macaronServer.model;
+
+public class Login {
+
+	int member_number;
+	int type;
+	String id;
+	String password;
+	
+}
